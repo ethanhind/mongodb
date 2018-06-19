@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 
-mongoose.connect("mongodb://heroku_rrj9mlws:hqtd47rrelr7d7srn9hpdpa0bj@ds163721.mlab.com:63721/heroku_rrj9mlws");
+mongoose.connect();
 var db = mongoose.connection;
 
 
